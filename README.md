@@ -1,3 +1,3 @@
 # ProjetoIntegrador
-![diagrama1](https://github.com/user-attachments/assets/a975f475-8a9a-4643-9538-0ed133ea5862)
+![Diagrama2](https://github.com/user-attachments/assets/400d1ff2-d2c9-4fb7-8188-1fe0489a50cc)
 
