@@ -19,7 +19,14 @@ export class LoginComponent {
 
   onLogin() {
     if (this.loginForm.valid) {
-    
+      const { usuario, senha } = this.loginForm.value;
+
+      if (usuario === 'admin' && senha === '123456') {
+        this.router.navigate(['/home']);
+      } else {
+        alert('Usuário ou senha inválidos');
+      }
+
       console.log(this.loginForm.value);
       this.router.navigate(['/restaurantes']);
     }
