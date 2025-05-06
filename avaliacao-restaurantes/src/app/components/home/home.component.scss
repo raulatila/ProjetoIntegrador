@@ -1,0 +1,32 @@
+.toolbar {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  .spacer {
+    flex: 1 1 auto;
+  }
+  
+  .filtros {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    flex-wrap: wrap;
+  }
+  
+  .lista {
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .card {
+    width: 300px;
+  }
+  
