@@ -19,7 +19,7 @@ export class LoginComponent {
 
   onLogin() {
     if (this.loginForm.valid) {
-      // Simulação de login
+    
       console.log(this.loginForm.value);
       this.router.navigate(['/restaurantes']);
     }
