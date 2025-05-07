@@ -2,8 +2,9 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { RouterModule } from '@angular/router';
 
+import { RouterModule } from '@angular/router';
+import { AppRoutingModule } from './app-routing.module';
 
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
@@ -14,11 +15,9 @@ import { MatTabsModule } from '@angular/material/tabs';
 import { MatCardModule } from '@angular/material/card';
 import { MatListModule } from '@angular/material/list';
 
-
 import { AppComponent } from './app/app.component';
-import { AppRoutingModule } from './app-routing.module';
 import { LoginComponent } from './app/components/login/login.component';
-import { HomeComponent } from './app/components/home/home.componet';
+import { HomeComponent } from './app/components/home/home.component';
 
 @NgModule({
   declarations: [
@@ -45,4 +44,4 @@ import { HomeComponent } from './app/components/home/home.componet';
   providers: [],
   bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
