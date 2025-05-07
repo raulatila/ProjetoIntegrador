@@ -18,12 +18,14 @@ import { MatListModule } from '@angular/material/list';
 import { AppComponent } from './app/app.component';
 import { LoginComponent } from './app/components/login/login.component';
 import { HomeComponent } from './app/components/home/home.component';
+import { PublicationsComponent } from './app/publications/publications.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     HomeComponent,
+    PublicationsComponent,
   ],
   imports: [
     BrowserModule,
