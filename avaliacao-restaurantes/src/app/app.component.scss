@@ -1,0 +1,15 @@
+.spacer {
+    flex: 1 1 auto;
+  }
+  
+  .main-container {
+    height: calc(100vh - 64px);
+  }
+  
+  .content {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
